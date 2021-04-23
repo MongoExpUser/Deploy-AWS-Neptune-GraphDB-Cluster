@@ -76,23 +76,21 @@ variable "preferred_maintenance_window" {
 
 variable "neptune_cluster_parameter_group_name" {
   # note: ensure neptune_enable_audit_log parameter is set to 1 on the specified parameter group to enable Audit logs to be published in CloudWatch Logs.
-  # default  = "my-cluster-parameter-group"
-  default  = "default.neptune1"
+  default  = "my-cluster-parameter-group"
+  #default  = "default.neptune1"
 }
 
 variable "neptune_subnet_group_name" {
-  default = "neptune-subnet-group"
+  default = "my-subnet-group"
 }
 
 variable "vpc_security_group_ids" {
-  default =  ["sg-03249056535472935"]
-  #default =  ["my-sg-value"]
+  default =  ["my-sg-value"]
 }
 
 variable "vpc_id" {
   # note: each DB instance has thesame subnet group (db_subnet_group_name) and security group (vpc_security_group_ids) on same VPC (vpc_id)
-  default = ["vpc-0ee69b618a02fd79b"]
-  #default = ["my-vpc-id"]
+  default = ["my-vpc-id"]
 }
 
 variable "storage_encrypted" {
