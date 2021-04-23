@@ -1,6 +1,6 @@
 # Deploy-AWS-Neptune-GraphDB-Cluster
 
-<strong>Terraform module for the deployment on AWS Neptune graph database cluster with or without a snapshot.</strong>
+<strong>Terraform module for the deployment of AWS Neptune graph database cluster with or without a snapshot.</strong>
 <br>
 
 This repo is based on <strong>```Terraform Version 0.14.8```</strong>.
