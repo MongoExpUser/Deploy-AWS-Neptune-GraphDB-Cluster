@@ -68,6 +68,6 @@ output "neptune_cluster_instances" {
 
 # License
 
-Copyright © 2021 - present. MongoExpUser
+Copyright © 2015 - present. MongoExpUser
 
 Licensed under the MIT license.
