@@ -11,9 +11,10 @@
 # *                                                                                                                *
 # * Note: To Migrate or Restore databse:                                                                           *
 # * 1) If a snapshot is to be migrated/restored, do the followings:                                                *
-# *    a) Uncomment "snapshot_identifier" paramater with the definition of the "neptune_cluster" resource          *
-# *    b) Specify the ARN of the snapshot to be migrated in the "variable.tf" file under the variable name:        *
-# *       "snapshot_identifier"                                                                                    *
+# *    a) Uncomment "snapshot_identifier" paramater within the definition of the "neptune_cluster" resource        *
+# *    b) Specify the "snapshot identifier' of the snapshot to be migrated in the "variable.tf" file               *
+# *      under the variable name: "snapshot_identifier". This is converted internally to the ARN under local       *
+# *      variable definition                                                                                       *
 # *                                                                                                                *
 # *                                                                                                                *
 # ******************************************************************************************************************
