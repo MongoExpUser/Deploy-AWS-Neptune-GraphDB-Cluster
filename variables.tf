@@ -63,7 +63,7 @@ variable "engine_version" {
 }
 
 variable "backup_retention_period" {
-  default = 1
+  default = 2
 }
 
 variable "preferred_backup_window" {
@@ -71,7 +71,7 @@ variable "preferred_backup_window" {
 }
 
 variable "preferred_maintenance_window" {
-  default = "sun:15:00-sun:17:00"
+  default = "sun:12:00-sun:14:00"
 }
 
 variable "neptune_cluster_parameter_group_name" {
